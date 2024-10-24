@@ -26,6 +26,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/cbvb/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
